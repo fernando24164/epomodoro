@@ -18,6 +18,12 @@ Small CLI application that implements the Pomodoro routine
 The default pomodoros are 4 with a time range of 20 minutes each one.
 After countdown there will be a chill out time to relax.
 
+To install from PyPI
+
+```
+pip install epomodoro
+```
+
 To install manually cloning the repository
 
 ```
