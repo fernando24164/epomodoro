@@ -48,6 +48,20 @@ epomodoro start -l 20 -p 2 -c 10
 
 <img src="src/media/images/example.png" alt="Execution example" width="275"/>
 
+You can get the statistics of your pomodoros from last week if there is data
+
+```
+epomodoro statistic
+```
+
+<img src="src/media/images/example_statistic.png" alt="Execution statistic" width="275"/>
+
+To clean the data store in ` ~/.config/epomodoro`
+
+```
+epomodoro clean
+```
+
 ## Test <a name= "test"></a>
 
 See Makefile definition
