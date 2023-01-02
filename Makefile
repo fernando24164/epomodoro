@@ -3,3 +3,7 @@ test:
 	rm -r *.pickle
 clean:
 	find . -type d -name "__pycache__" -exec rm -rf {} +
+build:
+	python setup.py install
+upload:
+	twine upload dist/*
