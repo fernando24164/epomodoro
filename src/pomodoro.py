@@ -55,13 +55,3 @@ class Pomodoro:
 
     def __str__(self) -> str:
         return f"Pomodoro (length={self.length} minutes, pomodoros={self.pomodoros}, chill={self.chill} minutes)"
-
-
-class TermDrawer:
-    """
-    Class to generate terminal plots using plotext
-    """
-
-    def __init__(self, metrics, metric_name: str):
-        self.metrics = metrics
-        self.metric_name = metric_name
