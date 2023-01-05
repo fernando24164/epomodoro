@@ -16,9 +16,9 @@ class Pomodoro:
     def __init__(
         self, length: int = 30, pomodoros: int = 4, chill: int = 5, task: str = "NoName"
     ) -> None:
-        self.length = length
-        self.pomodoros = pomodoros
-        self.chill = chill
+        self.length = int(length)
+        self.pomodoros = int(pomodoros)
+        self.chill = int(chill)
         self.session = Session(
             time_in_minutes_worked=0,
             time_in_minutes_chilling=0,

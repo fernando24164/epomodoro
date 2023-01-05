@@ -62,11 +62,29 @@ To clean the data store in ` ~/.config/epomodoro`
 epomodoro clean
 ```
 
+## Autocomplete for CLI
+
+To add autocomplete in Bash shell
+
+```
+_EPOMODORO_COMPLETE=bash_source epomodoro > ~/.epomodoro-complete.bash
+. ~/.epomodoro-complete.bash
+
+```
+
+To add autocomplete to CLI when press Tab for ZSH shell
+
+```
+_EPOMODORO_COMPLETE=zsh_source epomodoro > ~/.epomodoro-complete.zsh
+. ~/.epomodoro-complete.zsh
+```
+
 ## Test <a name= "test"></a>
 
 See Makefile definition
 
 To run test
+
 ```
 make test
 ```
