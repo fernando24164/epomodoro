@@ -1,10 +1,8 @@
 from datetime import datetime
 import unittest
 
-from session import Session
-
 from src.metrics import Metric
-from src.session import Mood
+from src.session import Mood, Session
 
 
 class TestMetric(unittest.TestCase):

@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="epomodoro",
-    version="0.3.0",
+    version="0.4.0",
     author="Fernando Cillero",
     author_email="fernando24164@gmail.com",
     description="Another pomodoro timer",

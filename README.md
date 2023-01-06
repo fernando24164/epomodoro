@@ -1,4 +1,5 @@
 # Easy Pomodoro CLI
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/epomodoro)[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 <img src="src/media/images/pomodoro_logo.jpeg" alt="Image of clock by Picasso" width="200"/>
 
